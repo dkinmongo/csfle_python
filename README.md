@@ -26,6 +26,7 @@ pip install -r requirements.txt
 Before running the application, ensure you have the following information stored in `your_credentials.py`:
 
 - **AWS KMS CMK (Customer Master Key) information**: Required for encryption and decryption operations.
+- **Local CMK (Customer Master Key) information**: Do require nothing to be added.
 - **SHARED_LIB_PATH**: Path to the encrypted schema map library. Example: `/usr/lib/mongo_crypt_v1.dylib`.
 
 ## Generate Data Encryption Keys (DEKs)
